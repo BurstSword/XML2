@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Árboles>
+
+<Árbol>
+<NombreCientífico></NombreCientífico>
+<NombreComún></NombreComún>
+<Vegetación></Vegetación>
+<Altura></Altura>
+<FormayEstructura></FormayEstructura>
+<ColorenPrimavera></ColorenPrimavera>
+<ResistenciaAlasHeladas></ResistenciaAlasHeladas>
+</Árbol>
+<Árbol>
+<NombreCientífico>Acer monspessulanum</NombreCientífico>
+<NombreComún>Arce de Montpellier, Arce menor</NombreComún>
+<Vegetación>Caducifolio</Vegetación>
+<Altura>De 6 a 10 metros</Altura>
+<FormayEstructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</FormayEstructura>
+<ColorenPrimavera>Haz verde brillante, envés verde blanquecino</ColorenPrimavera>
+<ResistenciaAlasHeladas>Heladas fuertes (hasta -15ºC)</ResistenciaAlasHeladas>
+</Árbol>
+<Árbol>
+<NombreCientífico>Olea europea</NombreCientífico>
+<NombreComún>Olivo</NombreComún>
+<Vegetación>Perenne</Vegetación>
+<Altura>De 8 a 15 metros</Altura>
+<FormayEstructura>Copa irregular. Tronco principal irregular con bifurcaciones.
+Ramaje tortuoso</FormayEstructura>
+<ColorenPrimavera>Haz verde oscuro, envés verde plateado</ColorenPrimavera>
+<ResistenciaAlasHeladas>Heladas medias (hasta -10ºC)</ResistenciaAlasHeladas>
+</Árbol>
+<Árbol>
+<NombreCientífico>Platanus orientalis</NombreCientífico>
+<NombreComún>Platano</NombreComún>
+<Vegetación>Caducifolio</Vegetación>
+<Altura>De 20 a 25 metros</Altura>
+<FormayEstructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</FormayEstructura>
+<ColorenPrimavera>Haz verde medio, enves verde claro</ColorenPrimavera>
+<ColorenOtoño>Ocre</ColorenOtoño>
+<ResistenciaAlasHeladas>Heladas fuertes (hasta -20ºC)</ResistenciaAlasHeladas>
+</Árbol>
+<Árbol>
+<NombreCientífico>Quercus ilex</NombreCientífico>
+<NombreComún>Encina</NombreComún>
+<Vegetación>Perenne</Vegetación>
+<Altura>En torno a 25 metros</Altura>
+<FormayEstructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</FormayEstructura>
+<ColorenPrimavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</ColorenPrimavera>
+<ResistenciaAlasHeladas>Heladas fuertes (hasta -15ºC)</ResistenciaAlasHeladas>
+</Árbol>
+</Árboles>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+
+<Facturas>
+
+    <NumFactura></NumFactura>
+    <DatosEmpresa>
+        <NombreEmpr>Equipos Digitales S.L.</NombreEmpr>
+        <Direccion>
+            <Calle>Av. Valladolid</Calle>
+            <Ciudad>Madrid</Ciudad>
+            <CodPostal>28015</CodPostal>
+        </Direccion>
+        <C.I.F>Q-9876543</C.I.F>
+        <Tlf>917776688</Tlf>
+        <Fax>917776699</Fax>
+    </DatosEmpresa>
+
+    <DatosdePedido>
+        <Fecha></Fecha>
+        <NNumPedido></NNumPedido>
+        <FormadePago></FormadePago>
+    </DatosdePedido>
+
+    <DatosCliente>
+        <NNumCliente></NNumCliente>
+        <Nombre></Nombre>
+        <DireccionDeEnvio>
+            <Poblacion></Poblacion>
+            <CodPostal></CodPostal>
+            <Provincia></Provincia>
+        </DireccionDeEnvio>
+    </DatosCliente>
+
+    <DatosFactura>
+        <Ref></Ref>
+        <Descripción></Descripción>
+        <Cantidad></Cantidad>
+        <Precio></Precio>
+        <IVA></IVA>
+        <Importe></Importe>
+
+    </DatosFactura>
+    <PrecioTotal>
+        <BaseImponible></BaseImponible>
+        <IVA></IVA>
+        <CuotaIVA></CuotaIVA>
+        <TotalFactura></TotalFactura>
+    </PrecioTotal>
+</Facturas>
+
+    

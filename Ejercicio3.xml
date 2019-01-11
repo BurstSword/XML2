@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+
+<!--
+<documento>
+<p>Mi Primer <destacar
+importancia="1">documento
+XML</destacar></p>
+<p>Comienza con la etiqueta
+&lt;documento&gt;</p>
+<imagen fichero="imagen.gif"></imagen>
+</documento>
+-->
+<libros>
+    <libro id="quijote"></libro>
+    <titulo>El Quijote</titulo>
+    <autor nombre="cervantes"></autor>
+    <descripcion>Es el mejor libro de cervantes.</descripcion>
+</libros>
