@@ -1,51 +1,57 @@
-<?xml version="1.0" encoding ="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <Facturas>
 
-    <NumFactura></NumFactura>
+    <Factura numero="999">
+
     <DatosEmpresa>
-        <NombreEmpr>Equipos Digitales S.L.</NombreEmpr>
+        <NombreEmpresa>Equipos Digitales S.L.</NombreEmpresa>
         <Direccion>
             <Calle>Av. Valladolid</Calle>
-            <Ciudad>Madrid</Ciudad>
-            <CodPostal>28015</CodPostal>
+            <Poblacion>Madrid</Poblacion>
+            <CP>28015</CP>
         </Direccion>
-        <C.I.F>Q-9876543</C.I.F>
-        <Tlf>917776688</Tlf>
+        <CIF>Q-9876543</CIF>
+        <TLF>917776688</TLF>
         <Fax>917776699</Fax>
     </DatosEmpresa>
 
-    <DatosdePedido>
+    <DatosPedido>
         <Fecha></Fecha>
-        <NNumPedido></NNumPedido>
-        <FormadePago></FormadePago>
-    </DatosdePedido>
+        <NumPedido></NumPedido>
+        <FormaPago></FormaPago>
+    </DatosPedido>
 
     <DatosCliente>
-        <NNumCliente></NNumCliente>
+        <NumCliente></NumCliente>
         <Nombre></Nombre>
-        <DireccionDeEnvio>
+        <DireccionEnvio>
+            <Calle></Calle>
+            <Num></Num>
+            <Piso></Piso>
             <Poblacion></Poblacion>
-            <CodPostal></CodPostal>
+            <CP></CP>
             <Provincia></Provincia>
-        </DireccionDeEnvio>
+        </DireccionEnvio>
     </DatosCliente>
 
     <DatosFactura>
-        <Ref></Ref>
-        <Descripción></Descripción>
-        <Cantidad></Cantidad>
-        <Precio></Precio>
-        <IVA></IVA>
-        <Importe></Importe>
-
-    </DatosFactura>
-    <PrecioTotal>
+        <Articulo>
+            <Ref></Ref>
+            <Descripcion></Descripcion>
+            <Cant></Cant>
+            <Precio></Precio>
+            <IVA></IVA>
+            <Importe></Importe>
+        </Articulo>
         <BaseImponible></BaseImponible>
         <IVA></IVA>
         <CuotaIVA></CuotaIVA>
         <TotalFactura></TotalFactura>
-    </PrecioTotal>
+    </DatosFactura>
+    
+    </Factura>
+
 </Facturas>
 
     
