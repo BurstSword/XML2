@@ -1,0 +1,57 @@
+<?xml versión="1.0" encoding="iso-8859-1" standalone="no"?>
+<!DOCTYPE charlas SYSTEM "charlas.dtd" [
+ <!ELEMENT charlas (charla)+)>
+<!ELEMENT charla (nombre, lugar, despedida)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT lugar (ciudad,direccion)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT direccion(#PCDATA)>
+<!ELEMENT despedida(#PCDATA)>
+<!ENTITY despedidaInglesa "Thank you, goodbye! ">
+<!ENTITY despedidaFrancesa "Merci, au revoir! ">
+]>
+<charlas>
+    <charla>
+        <nombre></nombre>
+        <lugar>
+            <ciudad></ciudad>
+            <direccion></direccion>
+        </lugar>
+        <despedida></despedida>
+    </charla>
+</charlas>
+
+<--->
+
+    <!DOCTYPE email[
+<!ELEMENT email (para, cc?, cco?, asunto, cuerpo)>
+    <!ELEMENT para (#PCDATA)>
+    <!ELEMENT cc (#PCDATA)>
+    <!ELEMENT cco (#PCDATA)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT cuerpo (#PCDATA)>
+
+]>
+
+
+<--->
+
+    <!DOCTYPE clausulas[
+    <!ELEMENT clausulas (clausula)+>
+    <!ELEMENT clausula (epigrafre+, epilogo)>
+    <!ELEMENT epigrafe (desarrollo)+>
+    <!ELEMENT desarrollo (#PCDATA)>
+    <!ELEMENT epilogo (#PCDATA)>
+
+]>
+
+<--->
+
+<!DOCTYPE persona
+<!ELEMENT persona (nombre, apellido, edad, enActivo?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT enActivo()>
+<!ATTLIST persona dni ID #REQUIRED>
+[>
