@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM"alumnos.dtd">
+<alumnos>
+    <alumno num_alumno="1" altura="170" sexo="Hombre">
+        <nombre>Miguel</nombre>
+        <apellidos>Sánchez</apellidos>
+        <domicilio>C/Nueva 2</domicilio>
+        <telefonos>
+            <telefono titular="Padre">666666666</telefono>
+            <telefono titular="Madre">666666667</telefono>
+            ...
+        </telefonos>
+        <perteneceEquipo/>
+        <aficiones>
+            <aficion>Fútbol</aficion>
+            <aficion>Baloncesto</aficion>
+        </aficiones>
+        <origen>
+            <pais>Argentina</pais>
+        </origen>
+        <comentarios>Mi comentario</comentarios>
+        <notas>
+        Mis notas
+            <evaluacion> 1 </evaluacion>
+            <calificacion> 7 </calificacion>
+        </notas>
+    </alumno>
+</alumnos>

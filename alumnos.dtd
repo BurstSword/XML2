@@ -1,0 +1,23 @@
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno ANY>
+<!ELEMENT alumno (nombre,apellidos,domicilio,telefonos+,EquipoDeportivo?,aficiones+>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT domicilio (#PCDATA)>
+<!ELEMENT teléfonos (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT perteneceEquipo EMPTY>
+<!ELEMENT aficiones (aficion*)>
+<!ELEMENT aficion (#PCDATA)>
+<!ELEMENT origen (pais|provincia)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT comentarios ANY>
+<!ELEMENT notas (#PCDATA|evaluacion|calificacion)*>
+<!ELEMENT evaluacion (#PCDATA)>
+<!ELEMENT calificacion (#PCDATA)>
+<!ATTLIST alumno num_alumno ID #REQUIRED>
+<!ATTLIST alumno altura CDATA #IMPLIED>
+<!ATTLIST alumno sexo (HOMBRE|MUJER) #IMPLIED>
+<!ATTLIST telefono titular (Alumno|Padre|Madre|Tutor)"Alumno">
+<!ATTLIST alumno ayudante IDREF #IMPLIED>

@@ -1,0 +1,16 @@
+<!ELEMENT pedidos (pedido+)>
+<!ELEMENT pedido ((empresa|cliente), producto+,fecha,factura?)>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT persona (#PCDATA>
+<!ELEMENT producto (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT factura (emisor,total,fecha_fact>
+<!ELEMENT emisor (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT fecha_fact (#PCDATA)>
+<!ATTLIST empresa CIF ID #REQUIRED>
+<!ATTLIST persona NIF ID #REQUIRED>
+<!ATTLIST factura numfacturA ID>
+<!ATTLIST factura cliente IDREF #REQUIRED>
+<!ATTLIST factura productos IDREFS>
+<!ENTITY MiEmpresa Mi Empresa>
